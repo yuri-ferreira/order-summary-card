@@ -1,0 +1,155 @@
+
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: #E0E8FF;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card {
+  width: 450px;
+  height: 640px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card h1 {
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-weight: 900;
+}
+
+.card p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+  width: 320px;
+}
+
+
+.plantype {
+  height: 100px;
+  width: 380px;
+  border-radius: 15px;
+  background-color: hsl(225, 100%, 98%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+}
+
+
+.icon {
+  margin-right: auto;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.typeofplan {
+  position: relative;
+  bottom: 72px;
+  margin-left: 100px;
+  color: hsl(223, 47%, 23%);
+}
+
+.priceofplan {
+  position: relative;
+  bottom: 88px;
+  margin-left: 100px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-variant: normal;
+}
+
+.changeplan {
+  font-weight: bold;
+  position: relative;
+  bottom: 140px;
+  margin-left: 280px; 
+}
+
+.changeplan:hover {
+  color: #766CF1;
+}
+
+
+.proceed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26px;
+  width: 380px;
+  padding: 15px;
+  border: none;
+  border-radius: 7px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.proceed:hover {
+  background-color: #766CF1;
+  cursor: pointer;
+}
+
+.cnord {
+  text-decoration: none;
+  font-weight: 700;
+  color: #808B9F;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.cnord:hover {
+  color: hsl(223, 47%, 23%) ;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+     background-image: url(/images/pattern-background-mobile.svg);
+     background-repeat: no-repeat;
+  }
+  .card {
+    height: 660px;
+    width: 340px;
+    margin-top: 25px;
+    margin-right: 11px;
+    margin-bottom: 25px;
+  }
+  .ilhero {
+    height: 200px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .plantype {
+   width: 300px;
+  }
+  .plantype h4 {
+    margin-top: 24px;
+    margin-left: 88px;
+    font-size: 14px;
+  }
+  .changeplan {
+    margin-left: 216px;
+    font-size: 14px;
+    top:-138px;
+  }
+  .proceed {
+    width: 280px;
+  }
+}
