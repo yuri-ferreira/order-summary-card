@@ -82,6 +82,7 @@ body {
 
 .changeplan:hover {
   color: #766CF1;
+  transition: all 0.4s ease-in;
 }
 
 
@@ -103,6 +104,7 @@ body {
 .proceed:hover {
   background-color: #766CF1;
   cursor: pointer;
+  transition: all 0.4s ease-in;
 }
 
 .cnord {
@@ -116,6 +118,7 @@ body {
 
 .cnord:hover {
   color: hsl(223, 47%, 23%) ;
+  transition: all 0.4s ease-in;
 }
 
 @media screen and (max-width: 375px) {
